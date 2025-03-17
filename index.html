@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore uma vasta gama de calculadoras online para facilitar suas tarefas diárias. Calculito é sua ferramenta de cálculo confiável para 2025 e além.">
+  <link rel="icon" href="assets/img/calc.ico" type="image/x-icon">
+  <meta name="keywords" content="calculadoras online, calcular IMC, gasto calorico, ferramentas de cálculo, Calculito, 2025">
+
+
+  <!-- Links para os arquivos de estilo -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Calculadoras</title>
+
 </head>
 <body>
 
-    <form onsubmit="return calcular(event)">
+<nav class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="assets/img/calculadora.png" alt="Logo" height="100">
+        </a>
+        <span>Calculito</span>
+    </div>
+      <div class="nav-links">
+        <a href="financeira.html">Calculadora Financeira</a>
+        <a href="trabalhista.html">Calculadora Contábil</a>
+        <a href="imc.html">Calculadora IMC</a>
+        <a href="basal.html">Calculadora Taxa Basal</a>
+    </div>
+</nav>
 
-        <label> Informe seu peso!</label> <br/>
-        <input type="text" name="peso" placeholder="Exemplo 65.00"/>  <br/> <br/>
 
-        <label> Digite sua altura:/label> <br/>
-        <input type="text" name="altura" placeholder="Exemplo 1.70"/>  <br/> <br/>
 
-        <input type="submit" value="Calcular IMC"/>
-        
-    </form> 
-
-    
-    <script src="assets/js/script.js"></script>
 </body>
 </html>
