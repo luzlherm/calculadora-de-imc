@@ -1,30 +1,47 @@
-body {
-    font-family: "Simplon BP Bold", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    font-weight: 100px;
-    background-color: #357180;
+
+
+
+body{
     margin: 0;
     padding: 0;
-
-
-   /* Estilos para o nav (barra de navegação) */
-nav {  
-    text-align: left;
-  
-    height: 50px;
-    margin-top: 50px;
-    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
-.navbar{
-   
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre a logo e o texto */
+}
+
+.logo img {
+    height: 200px;
+}
+
+.logo span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px; /* Espaço entre os links */
+    margin-top: 5px; /* Espaço entre a logo e os links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
 }
